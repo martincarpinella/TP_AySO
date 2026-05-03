@@ -1,1 +1,2 @@
 Usuario=4(whoami)
+model name	: Intel(R) N150
