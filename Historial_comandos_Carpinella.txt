@@ -1,0 +1,231 @@
+ls
+echo "hola vagrant"
+mkdir clase4
+ls -l
+cd clase4/
+pwd
+ls -l
+history
+pwd
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls -l
+pwd
+cd -
+pwdd
+x
+cexa e pp
+exit
+pwd
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:martincarpinella/vmvagrant_repo.git
+ls -l
+cd vmvagrant_repo/
+ls -l
+echo "mi primer repo"
+echo "mi primer repo" > texto1.txt
+ls -l
+cat texto1.txt 
+git status
+git add .
+git status
+ped
+pwd
+-1
+-l
+ls -l
+cat archivo3.txt
+tree
+sudo apt update
+sudo apt install tree
+tree
+mkdir clase5
+cd clase5/
+ls -l
+mkdir practica
+ls -l
+cd practica/
+ls -l
+touch practica1.txt
+ls -l
+cat practica1.txt
+cp practica1.txt practica2.txt
+ls -l
+rm practica1.txt
+ls -l
+mv practica2.txt /home/vagrant/clase5/
+ls -l
+cd ..
+ls -l
+rmdir practica/
+ls -l
+pwd
+mkdir facturas pedidos
+tree
+mkdir -p clientes/{facturas,pedidos}
+tree
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p contactos/{cliente,proveedores}/{facturas,pedidos}
+tree
+mkdir -p carpinella_1/contactos/{cliente,proveedores}/{facturas,pedidos}
+tree
+ls -l
+cd clase5
+ls -l
+tree
+mkdir -p carpinella_2{mama/hijo{1..3},papa/hijo{1..3},ahijado}}
+tree
+rm carpinella_2ahijado}
+rmdir carpinella_2ahijado}
+tree
+rmdir carpinella_2mama
+rm -r carpinella_2mama
+rm -r carpinella_2papa
+tree
+mkdir-p carpinella_2/{mama/hijo{1..3},papa/{hijo{1..3},ahijado}}
+mkdir -p carpinella_2/{mama/hijo{1..3},papa/{hijo{1..3},ahijado}}
+tree
+grep vagrant /etc/password
+grep vagrant /etc/passwd
+cat /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+grep vagrant /etc/shadow
+sudo grep vagrant /etc/shadow
+sudo su
+cd ..
+sudo groupadd alumnos
+cat /etc/group
+sudo useradd -m -s /bin/bash -c "alumno pepe" -G alumnos pepe
+cat /etc/passwd
+cat /etc/group
+ls -l /home
+passwd pepe
+pwd
+su - pepe
+vagrant halt
+su - pepe
+pwd
+sudo usermod -aG sudo pepe
+pepe
+su - pepe
+wd
+sd
+pwd
+exit
+ssh-keygen -t ed25519
+cat $HOME/ssh/*.pub
+cat&$4asksdksk$h
+cat &home/ssh/*.pub
+cat &home/ssh/.pub
+cat $HOME/.ssh/*.pub
+vagrant ssh-config
+ssh-config
+ssh-keygen -t ed25519
+/home/vagrant/.ssh/id_ed25519.pub
+sudo /home/vagrant/.ssh/id_ed25519.pub
+ls -la
+sudo /home/vagrant/.ssh/id_ed25519.pub
+/home/vagrant/.ssh/id_ed25519.pub
+sudo /home/vagrant/.ssh/id_ed25519.pub
+sudo home/vagrant/.ssh/id_ed25519.pub
+sudo/home/vagrant/.ssh/id_ed25519.pub
+cd repogit
+ls -l
+ssh-keygen -t ed25519 -C carpinellamartin@gmail.com
+ls -al ~/.ssh
+clip < ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub | clip
+pbcopy < ~/.ssh/id_ed25519.pub
+bcopy < ~/.ssh/id_ed25519.pub
+cd ..
+pwd
+ssh-keygen -t ed 25519
+vagrant halt
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+cd repogit
+cd ..
+cd repogit
+ls-l
+ls -l
+git clone git@github.com:martincarpinella/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep git@github.com:martincarpinella/TP_AySO.git/etc/os-release
+cd repogit
+ls -la
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep git@github.com:martincarpinella/TP_AySO.git /etc/os-release
+grep git@github.com:martincarpinella/TP_AySO.git/etc/os-release
+exit
+cdcdcdt
+cd repogit
+cd TP_AySO/
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami) > datos_usuario.txt
+
+ls
+ss
+d
+s
+s
+s
+s
+s
+s
+as
+s
+s
+exit
+
+cd repogit
+cd TP_AySO/
+ls -la
+whoami
+echo "Usuario=4(whoami)" > datos_usuario.txt
+ls -la
+git add .
+git config --global user.email "carpinellamartin@gmail.com"
+git config --global user.name "martincarpinella"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+/proc/cpuinfo
+sudo proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+git status
+git push
+cat <<EOF >> README.md
+Alumno: <martin carpinella>
+division: <113>
+turno: <Mañana>
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: añadiendo readme y datos de usuario"
+git push
+mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+histoy -a
